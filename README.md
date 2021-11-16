@@ -7,7 +7,7 @@ yarn i - para instalar as dependencias com yarn
 
 npm i - para instalar as dependencias com npm
 
-scripts: 
+scripts yarn: 
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
