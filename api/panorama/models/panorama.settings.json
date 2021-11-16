@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "panoramas",
+  "info": {
+    "name": "panorama"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "src": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "hotspots": {
+      "collection": "hotspot"
+    }
+  }
+}

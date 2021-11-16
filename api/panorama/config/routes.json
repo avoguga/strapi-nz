@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/panoramas",
+      "handler": "panorama.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/panoramas/count",
+      "handler": "panorama.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/panoramas/:id",
+      "handler": "panorama.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/panoramas",
+      "handler": "panorama.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/panoramas/:id",
+      "handler": "panorama.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/panoramas/:id",
+      "handler": "panorama.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
