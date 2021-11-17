@@ -3,7 +3,7 @@
 A quick description of your strapi application
 
 
-yarn i - para instalar as dependencias com yarn
+yarn install - para instalar as dependencias com yarn
 
 npm i - para instalar as dependencias com npm
 
