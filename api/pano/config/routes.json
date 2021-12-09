@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/panoramas",
-      "handler": "panorama.find",
+      "path": "/panos",
+      "handler": "pano.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/panoramas/count",
-      "handler": "panorama.count",
+      "path": "/panos/count",
+      "handler": "pano.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/panoramas/:id",
-      "handler": "panorama.findOne",
+      "path": "/panos/:id",
+      "handler": "pano.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/panoramas",
-      "handler": "panorama.create",
+      "path": "/panos",
+      "handler": "pano.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/panoramas/:id",
-      "handler": "panorama.update",
+      "path": "/panos/:id",
+      "handler": "pano.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/panoramas/:id",
-      "handler": "panorama.delete",
+      "path": "/panos/:id",
+      "handler": "pano.delete",
       "config": {
         "policies": []
       }

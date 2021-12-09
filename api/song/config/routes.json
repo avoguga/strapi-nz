@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/hotspots",
-      "handler": "hotspot.find",
+      "path": "/songs",
+      "handler": "song.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/hotspots/count",
-      "handler": "hotspot.count",
+      "path": "/songs/count",
+      "handler": "song.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/hotspots/:id",
-      "handler": "hotspot.findOne",
+      "path": "/songs/:id",
+      "handler": "song.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/hotspots",
-      "handler": "hotspot.create",
+      "path": "/songs",
+      "handler": "song.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/hotspots/:id",
-      "handler": "hotspot.update",
+      "path": "/songs/:id",
+      "handler": "song.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/hotspots/:id",
-      "handler": "hotspot.delete",
+      "path": "/songs/:id",
+      "handler": "song.delete",
       "config": {
         "policies": []
       }

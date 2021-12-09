@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "panos",
+  "info": {
+    "name": "pano"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "config": {
+      "type": "json"
+    },
+    "src": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
