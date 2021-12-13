@@ -1,0 +1,11 @@
+{
+    "provider": "aws-s3",
+    "providerOptions": {
+      "accessKeyId": "AKIAZ46GPBYYHKWNTHFP",
+      "secretAccessKey": "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",
+      "region": "us-east-1",
+      "params": {
+        "Bucket": "nz-nodejs"
+      }
+    }
+  }
