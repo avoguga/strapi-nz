@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pano-configs",
+      "handler": "pano-config.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pano-configs/count",
+      "handler": "pano-config.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pano-configs/:id",
+      "handler": "pano-config.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pano-configs",
+      "handler": "pano-config.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pano-configs/:id",
+      "handler": "pano-config.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pano-configs/:id",
+      "handler": "pano-config.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

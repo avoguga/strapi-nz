@@ -1,0 +1,16 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pano_configs",
+  "info": {
+    "name": "pano-config"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "config": {
+      "type": "json"
+    }
+  }
+}
