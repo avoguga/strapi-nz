@@ -19,7 +19,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false
+      "required": true
     },
     "images": {
       "collection": "file",
